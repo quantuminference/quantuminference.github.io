@@ -1,0 +1,28 @@
+<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="32" height="32" fill="#2a3142" rx="4" ry="4"/>
+  
+  <!-- Main turret body -->
+  <rect x="9" y="9" width="14" height="14" fill="#ffffff" rx="1"/>
+  
+  <!-- Turret footing -->
+  <rect x="7" y="22" width="18" height="4" fill="#ffffff" rx="1" ry="1"/>
+  <!-- Sharp bottom overlay to remove bottom rounding -->
+  <rect x="7" y="24" width="18" height="2" fill="#ffffff"/>
+  
+  <!-- Crenellations (castle teeth) - 3 equal width teeth -->
+  <rect x="7" y="6" width="4" height="6" fill="#ffffff" rx="1" ry="1"/>
+  <!-- Sharp top overlay to remove top rounding -->
+  <rect x="7" y="6" width="4" height="2" fill="#ffffff"/>
+  
+  <rect x="14" y="6" width="4" height="6" fill="#ffffff" rx="1" ry="1"/>
+  <!-- Sharp top overlay to remove top rounding -->
+  <rect x="14" y="6" width="4" height="2" fill="#ffffff"/>
+  
+  <rect x="21" y="6" width="4" height="6" fill="#ffffff" rx="1" ry="1"/>
+  <!-- Sharp top overlay to remove top rounding -->
+  <rect x="21" y="6" width="4" height="2" fill="#ffffff"/>
+  
+  <!-- Letter C box shape -->
+  <path d="M 18.5 14 L 14.5 14 Q 13.5 14 13.5 15 L 13.5 19 Q 13.5 20 14.5 20 L 18.5 20" stroke="#2a3142" stroke-width="2" fill="none" stroke-linecap="round"/>
+</svg>
